@@ -52,11 +52,21 @@ ul
 
 li 
 {
-    background-color: black;
+    background-color: white;
     padding: 10px;
     border: 1px solid #bbb;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+button
+{
+    background-color: #ff4b4b;
+}
+
+button:hover
+{
+    background-color: #ff3333;
 }
