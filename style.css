@@ -32,7 +32,7 @@ input
 button 
 {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #ff4b4b;
     color: white;
     border: none;
     cursor: pointer;
@@ -40,7 +40,7 @@ button
 
 button:hover 
 {
-    background-color: #45a049;
+    background-color: #ff3333;
 }
 
 ul 
@@ -54,6 +54,9 @@ li
 {
     background-color: white;
     padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
