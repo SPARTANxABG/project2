@@ -19,7 +19,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e)
         });
         li.appendChild(deleteBtn);
 
-        
         document.getElementById('contactList').appendChild(li);
 
         // Clear form inputs
